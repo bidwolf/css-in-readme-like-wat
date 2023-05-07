@@ -1,17 +1,8 @@
 <div align="center">
 	<br>
 	<a href="https://github.com/bidwolf/css-in-readme-like-wat/blob/main/header.svg">
-		<img src="header.svg" width="800" height="400" alt="Click to see the source">
+		<img src="header.svg" width="100"alt="Click to see the source">
 	</a>
+	<h3>Henrique de Paula Rodrigues</h3>
 	<br>
 </div>
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-Explanation: https://css-tricks.com/custom-styles-in-github-readmes/
