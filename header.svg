@@ -3,77 +3,77 @@
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
     
-    .contributor-container{
-        display:grid;
-        justify-content: space-around;
-        grid-template-columns: repeat(4,1fr);
-        gap: 1rem;
-        align-items:center;
-    }
-    .contributor-inner-container{
-        display:flex;
-        flex-direction:column;
-        justify-content: center;
-        align-items:center;
-        padding:.5rem;
-    }
-    .contributor-image-container{
-        position:relative;
-        outline: 2px solid transparent;
-        width: 8rem;
-        aspect-ratio:1/1;
-        overflow:hidden;
-        border-radius:99999px;
-        outline-offset:-1px;
-    }
-    .contributor-image-container::after {
-    content: '';
-    position: absolute;
-    top: 3px;
-    left: 3px;
-    bottom: 3px;
-    right: 3px;
-    border-radius: inherit;
-    box-shadow: 0 0 0 3px black;
-    z-index: 10;
-  }
-  .contributor-image-container::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(circle at center,transparent,black);
-    opacity: 0.2;
-    transition: opacity 0.25s ease-in-out;
-  }
-    .contributor-image-container:hover{
-        cursor:pointer;
-    }
-    .contributor-image-container:hover::before{
-        opacity:0.5;
-    }
-    .contributor-image{
-        width:100%;
-        height:100%;
-        object-fit:cover;
-        object-position:center;
-        border-radius:inherit;
-    }
-    .contributor-social-icon-container{
-        display:flex;
-        justify-content:center;
-        gap:1rem;
-        align-items:center;
-    }
-    .contributor-social-icon-container>img{
-        width: 20px;
-    }
-    .dev{
-        outline-color:#ABFFE7;
-    }
-</style>
+			    .contributor-container{
+				display:grid;
+				justify-content: space-around;
+				grid-template-columns: repeat(4,1fr);
+				gap: 1rem;
+				align-items:center;
+			    }
+			    .contributor-inner-container{
+				display:flex;
+				flex-direction:column;
+				justify-content: center;
+				align-items:center;
+				padding:.5rem;
+			    }
+			    .contributor-image-container{
+				position:relative;
+				outline: 2px solid transparent;
+				width: 8rem;
+				aspect-ratio:1/1;
+				overflow:hidden;
+				border-radius:99999px;
+				outline-offset:-1px;
+			    }
+			    .contributor-image-container::after {
+			    content: '';
+			    position: absolute;
+			    top: 3px;
+			    left: 3px;
+			    bottom: 3px;
+			    right: 3px;
+			    border-radius: inherit;
+			    box-shadow: 0 0 0 3px black;
+			    z-index: 10;
+			  }
+			  .contributor-image-container::before{
+			    content: '';
+			    position: absolute;
+			    top: 0;
+			    left: 0;
+			    right: 0;
+			    bottom: 0;
+			    background: radial-gradient(circle at center,transparent,black);
+			    opacity: 0.2;
+			    transition: opacity 0.25s ease-in-out;
+			  }
+			    .contributor-image-container:hover{
+				cursor:pointer;
+			    }
+			    .contributor-image-container:hover::before{
+				opacity:0.5;
+			    }
+			    .contributor-image{
+				width:100%;
+				height:100%;
+				object-fit:cover;
+				object-position:center;
+				border-radius:inherit;
+			    }
+			    .contributor-social-icon-container{
+				display:flex;
+				justify-content:center;
+				gap:1rem;
+				align-items:center;
+			    }
+			    .contributor-social-icon-container>img{
+				width: 20px;
+			    }
+			    .dev{
+				outline-color:#ABFFE7;
+			    }
+	</style>
 
 <div class="contributor-container">
     <div class="contributor-inner-container">
