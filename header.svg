@@ -1,99 +1,24 @@
-<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
-	<foreignObject width="100%" height="100%">
-		<div xmlns="http://www.w3.org/1999/xhtml">
-			<style>
-				.contributor-container{
-				display:grid;
-				justify-content: space-around;
-				grid-template-columns: repeat(4,1fr);
-				gap: 1rem;
-				align-items:center;
-			    }
-				.contributor-inner-container{
-				display:flex;
-				flex-direction:column;
-				justify-content: center;
-				align-items:center;
-				padding:.5rem;
-			    }
-			    .contributor-image-container{
-				position:relative;
-				outline: 2px solid transparent;
-				width: 8rem;
-				aspect-ratio:1/1;
-				overflow:hidden;
-				border-radius:99999px;
-				outline-offset:-1px;
-			    }
-			    .contributor-image-container::after {
-			    content: '';
-			    position: absolute;
-			    top: 3px;
-			    left: 3px;
-			    bottom: 3px;
-			    right: 3px;
-			    border-radius: inherit;
-			    box-shadow: 0 0 0 3px black;
-			    z-index: 10;
-			  }
-			  .contributor-image-container::before{
-			    content: '';
-			    position: absolute;
-			    top: 0;
-			    left: 0;
-			    right: 0;
-			    bottom: 0;
-			    background: radial-gradient(circle at center,transparent,black);
-			    opacity: 0.2;
-			    transition: opacity 0.25s ease-in-out;
-			  }
-			    .contributor-image-container:hover{
-				cursor:pointer;
-			    }
-			    .contributor-image-container:hover::before{
-				opacity:0.5;
-			    }
-			    .contributor-image{
-				width:100%;
-				height:100%;
-				object-fit:cover;
-				object-position:center;
-				border-radius:inherit;
-			    }
-			    .contributor-social-icon-container{
-				display:flex;
-				justify-content:center;
-				gap:1rem;
-				align-items:center;
-			    }
-			    .contributor-social-icon-container>img{
-				width: 20px;
-			    }
-			    .dev{
-				outline-color:#ABFFE7;
-			    }
-	</style>
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    div {
+      color: white;
+      font: 18px serif;
+      height: 100%;
+      overflow: auto;
+    }
+  </style>
 
-<div class="contributor-container">
-    <div class="contributor-inner-container">
-    	<div class="contributor-inner-container">
-        	<div class="contributor-image-container dev">
-            		<div class="contributor-image">    
-            			<img src="https://github.com/geovanelelis.png" alt="https://github.com/geovanelelis">
-            		</div>
-        	</div>
-                <span class="contributor-title">
-                    <strong>
-                        Geovane Silva
-                    </strong>
-                </span>
-            	<div class="contributor-social-icon-container">
-                	<img src="https://cdn-icons-png.flaticon.com/512/1051/1051326.png" alt="Github do Geovane" title="Acesse o Github do Geovane">
-                	<img src="https://cdn-icons-png.flaticon.com/512/145/145807.png " alt="linkedin do Geovane" title="Acesse o linkedin do Geovane">
-            	</div>
-				</div>
-			</div>
-		</div>
-	    </div>
-		</foreignObject>
-	    </svg>
+  <polygon points="5,5 195,10 185,185 10,195" />
+
+  <!-- Common use case: embed HTML text into SVG -->
+  <foreignObject x="20" y="20" width="160" height="160">
+    <!--
+      In the context of SVG embedded in an HTML document, the XHTML
+      namespace could be omitted, but it is mandatory in the
+      context of an SVG document
+    -->
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <img src="https://github.com/bidwolf.png" width="20px">
+    </div>
+  </foreignObject>
+</svg>
