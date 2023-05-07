@@ -2,15 +2,14 @@
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
-    
-			    .contributor-container{
+				.contributor-container{
 				display:grid;
 				justify-content: space-around;
 				grid-template-columns: repeat(4,1fr);
 				gap: 1rem;
 				align-items:center;
 			    }
-			    .contributor-inner-container{
+				.contributor-inner-container{
 				display:flex;
 				flex-direction:column;
 				justify-content: center;
@@ -77,73 +76,24 @@
 
 <div class="contributor-container">
     <div class="contributor-inner-container">
-        <div class="contributor-image-container dev">
-            <div class="contributor-image">    
-            <img src="https://github.com/bidwolf.png" alt="Profile picture for Henrique de Paula Rodrigues">
-            </div>
-        </div>
-    </div>
-    <div class="contributor-inner-container">
-        <div class="contributor-image-container dev">
-            <div class="contributor-image">    
-            <img src="https://github.com/Francis1408.png" alt="Profile picture for Henrique de Paula Rodrigues">
-            </div>
-        </div>
-    </div>
-    <div class="contributor-inner-container">
-        <div class="contributor-image-container dev">
-            <div class="contributor-image">    
-            <img src="https://github.com/luizleroy01.png" alt="Profile picture for Luiz Leroy">
-            </div>
-        </div>
-    </div>
-    <div class="contributor-inner-container">
-        <div class="contributor-image-container dev">
-            <div class="contributor-image">    
-            <img src="https://github.com/JoaoPedroSilvaSantos.png" alt="Profile picture for Henrique de Paula Rodrigues">
-            </div>
-        </div>
-    </div>
-    <div class="contributor-inner-container">
-        <div class="contributor-image-container dev">
-            <div class="contributor-image">    
-            <img src="https://github.com/fredzolio.png" alt="Profile picture for Henrique de Paula Rodrigues">
-            </div>
-        </div>
-    </div>
-    <div class= "contributor-inner-container">
-        <div class="contributor-image-container dev">
-            <div class="contributor-image">    
-            <img src="https://github.com/PedroRonzani18.png" alt="Profile picture for Henrique de Paula Rodrigues">
-            </div>
-        </div>
-    </div>
-    <div class="contributor-inner-container">
-        <div class="contributor-image-container dev">
-            <div class="contributor-image">    
-            <img src="https://github.com/ooBraia.png" alt="Profile picture for Henrique de Paula Rodrigues">
-            </div>
-        </div>
-    </div>
-    <div class="contributor-inner-container">
-        <div class="contributor-image-container dev">
-            <div class="contributor-image">    
-            <img src="https://github.com/geovanelelis.png" alt="https://github.com/geovanelelis">
-            </div>
-        </div>
+    	<div class="contributor-inner-container">
+        	<div class="contributor-image-container dev">
+            		<div class="contributor-image">    
+            			<img src="https://github.com/geovanelelis.png" alt="https://github.com/geovanelelis">
+            		</div>
+        	</div>
                 <span class="contributor-title">
                     <strong>
                         Geovane Silva
                     </strong>
                 </span>
-            <div class="contributor-social-icon-container">
-                <img src="https://cdn-icons-png.flaticon.com/512/1051/1051326.png" alt="Github do Geovane" title="Acesse o Github do Geovane">
-                <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png " alt="linkedin do Geovane" title="Acesse o linkedin do Geovane">
-            </div>    
-    </div>
-    
-</div>
-
+            	<div class="contributor-social-icon-container">
+                	<img src="https://cdn-icons-png.flaticon.com/512/1051/1051326.png" alt="Github do Geovane" title="Acesse o Github do Geovane">
+                	<img src="https://cdn-icons-png.flaticon.com/512/145/145807.png " alt="linkedin do Geovane" title="Acesse o linkedin do Geovane">
+            	</div>
+				</div>
+			</div>
 		</div>
-	</foreignObject>
-</svg>
+	    </div>
+		</foreignObject>
+	    </svg>
